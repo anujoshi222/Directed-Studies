@@ -19,7 +19,8 @@ Documents - web-based documents
 ### Pre-requisites: HTML, Javascript, Jquery, SVG and CSS
 ![Prerequisites](https://image.slidesharecdn.com/d37-140731100120-phpapp01/95/intro-to-d3-datadriven-documents-7-638.jpg?cb=1406811316)
 
-### features
+### Features
+
 - **Data Driven Visualisations**: D3 is a framework that is also a visualization library for building-data driven graphics. 
 It lets you build graphics that use common web standards
       
@@ -27,22 +28,22 @@ It lets you build graphics that use common web standards
  And that means that one can use JavaScript and generate regular HTML and CSS visualizations and the slightly 
  and more flexible, scalable vector graphics known as SVG.
          
--**Works With Modern Broswers**: D3 library is very lightweight and works well across all the browsers.
+- **Works With Modern Broswers**: D3 library is very lightweight and works well across all the browsers.
  It is capable of handling large data sets.
       
--**Dynamic Properties**: D3 gives the flexibility to provide dynamic properties to most of its functions. 
+- **Dynamic Properties**: D3 gives the flexibility to provide dynamic properties to most of its functions. 
  Properties can be specified as functions of data. That means your data can drive your styles and attributes.
       
--**Types of visualization**: With D3, there are no standard visualization formats. But it enables you to create
+- **Types of visualization**: With D3, there are no standard visualization formats. But it enables you to create
 anything from an HTML table to a Pie chart, from graphs and bar charts to geospatial maps.
      
--**Custom Visualizations**: Since D3 works with web standards, it gives you complete control over
+- **Custom Visualizations**: Since D3 works with web standards, it gives you complete control over
 your visualization features.
      
--**Transitions**: D3 provides the transition() function. This is quite powerful because internally,
+- **Transitions**: D3 provides the transition() function. This is quite powerful because internally,
 D3 works out the logic to interpolate between your values and find the intermittent states.
      
--**Interaction and animation**: D3 provides great support for animation with functions like duration(), 
+- **Interaction and animation**: D3 provides great support for animation with functions like duration(), 
 delay() and ease(). Animations from one state to another are fast and responsive to user interactions.
      
 ## Prototype Idea
