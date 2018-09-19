@@ -20,7 +20,7 @@ Documents - web-based documents
 ![Prerequisites](https://image.slidesharecdn.com/d37-140731100120-phpapp01/95/intro-to-d3-datadriven-documents-7-638.jpg?cb=1406811316)
 
 ### features
-       **Data Driven Visualisations**: D3 is a framework that is also a visualization library for building-data driven graphics. 
+       ** Data Driven Visualisations **: D3 is a framework that is also a visualization library for building-data driven graphics. 
       It lets you build graphics that use common web standards
       
        **Using Open Web Standards**: It makes the graphics easily accessible through any web browser.
