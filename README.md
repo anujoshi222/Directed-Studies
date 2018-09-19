@@ -32,7 +32,7 @@ It lets you build graphics that use common web standards
  It is capable of handling large data sets.
 
 - **Web Standards**: 
-      - HTML = HyperText Markup Language
+      - *HTML* = HyperText Markup Language
       HTML is used to structure the content of the web page. The current version is HTML 5. 
       It is stored in a text file with the extension ".html".
 
@@ -48,18 +48,18 @@ It lets you build graphics that use common web standards
                         </body>
                         </html>
 
-     - DOM = Document Object Model
+     - *DOM* = Document Object Model
      When you write html code for your page, it gets converted to a hierarchical structure on the browser. 
      Every tag in html gets converted to an element in the DOM with a parent-child hierarchy. 
      It makes your html more logically structured. Once the DOM is formed, it makes it easier to manipulate
      (add/modify/remove) the elements on the page. 
 
-     - CSS = Cascading Style Sheets
+     - *CSS* = Cascading Style Sheets
      HTML gives a structure to the web page, while CSS styles your web page making it more pleasant to look at. 
      It is a stylesheet language used to describe the presentation of a document written in HTML or XML
      (including XML dialects like SVG or XHTML). CSS describes how elements should be rendered on a web page.
 
-     -SVG = Scalable Vector Graphics
+     - *SVG* = Scalable Vector Graphics
      SVG is a way to render images on the web page. SVG is not a direct image but is just a way to create 
      images using text. As it's name suggests, it is scalable vector. It scales itself according to the 
      size of the browser, so resizing your browser will not distort the image. All browsers support 
@@ -68,9 +68,6 @@ It lets you build graphics that use common web standards
      Since data visualizations are visual representations, it is convenient to use SVG to render visualizations using D3.
 
      Think of SVG as a canvas on which you can paint different shapes.
-
-     So to start off, create an SVG tag: <svg width="500" height="500"></<svg>
-
      The default measurement for SVG is pixels, so you don't need to specify if your unit is pixel.
 
      Now if you would like to draw a rectangle inside this SVG, draw it using <rect> :
@@ -87,7 +84,7 @@ It lets you build graphics that use common web standards
                       <rect x="0" y="0" width="300" height="200" fill="yellow"></rect>
                   </svg>
 
-    - JavaScript
+    - *JavaScript*
     JavaScript is a loosely-typed client side scripting language that executes in the user's browser. 
     JavaScript interact with html elements (DOM elements) in order to make the web user interface interactive.
     JavaScript implements ECMAScript standards, which includes core features based on ECMA-262 specification as 
