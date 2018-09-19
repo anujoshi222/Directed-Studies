@@ -31,7 +31,7 @@ It lets you build graphics that use common web standards
 - **Works With Modern Broswers**: D3 library is very lightweight and works well across all the browsers.
  It is capable of handling large data sets.
 
-- **Web Standards**: 
+- **Web Standards**: d3.js puts together the idea of the following web standards.
       - *HTML* = HyperText Markup Language
       HTML is used to structure the content of the web page. The current version is HTML 5. 
       It is stored in a text file with the extension ".html".
