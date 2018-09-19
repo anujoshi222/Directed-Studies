@@ -7,8 +7,8 @@
 ## d3.js
 
 ## Sources
-1. [](https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html)
-2. (http://www.tutorialsteacher.com/d3js)
-3. (https://www.dashingd3js.com/table-of-contents)
-4. (https://d3js.org/)
-5. (https://www.tutorialspoint.com/d3js/)
+1. [Lynda video Tutorials](https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html)
+2. [Tutorial teacher site](http://www.tutorialsteacher.com/d3js)
+3. [Dashing D3 site](https://www.dashingd3js.com/table-of-contents)
+4. [D3.js Official website](https://d3js.org/)
+5. [Tutorial Point](https://www.tutorialspoint.com/d3js/)
