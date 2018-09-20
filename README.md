@@ -170,7 +170,7 @@ Inserting data and appending the rectangles in the blank svg tag:
                          let translate = [bar_width * x, 0];
                          return "translate("+ translate +")";
                      });
-Insering labels at the top of each bar:
+Inserting labels at the top of each bar:
 
                         let text = svg.selectAll("text")
                            .data(data_array)
