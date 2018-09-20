@@ -1,4 +1,4 @@
-# D3.js- Data-Driven Documents
+# D3.js- Data-Driven Documents :Bowtie:
 ### This repository is dedicated to learn about the d3.js library for beginners.
 ![Data visualisation](https://images.unsplash.com/photo-1527474305487-b87b222841cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb7509475b0802f0f2f35515fae1195e&auto=format&fit=crop&w=967&q=80)
 
@@ -9,7 +9,7 @@
 4. [D3.js Official website](https://d3js.org/)
 5. [Tutorial Point](https://www.tutorialspoint.com/d3js/)
 6. [Slideshare](https://www.slideshare.net/flatironschool/d3-729-3?from_action=save)
-
+7. [Github Repository](https://github.com/d3/d3/wiki)
 
 ## Framework Overview
 D3 stands for Data-Driven Documents. It is an open-source JavaScript library developed by Mike Bostock to create custom interactive data visualizations in the web browser using SVG, HTML and CSS.
@@ -32,7 +32,8 @@ It lets you build graphics that use common web standards
  It is capable of handling large data sets.
 
 - **Web Standards**: d3.js puts together the idea of the following web standards.
-      - *HTML* = HyperText Markup Language
+
+     - *HTML* = HyperText Markup Language
       HTML is used to structure the content of the web page. The current version is HTML 5. 
       It is stored in a text file with the extension ".html".
 
@@ -107,3 +108,87 @@ delay() and ease(). Animations from one state to another are fast and responsive
 
 
 ## Prototype Idea
+
+Let's draw a line graph using the d3.js library.
+Pull d3.js library from [here](https://d3js.org/#introduction)
+
+                  <script src="https://d3js.org/d3.v5.min.js"></script>
+            
+            
+Create one html file and pull the d3.js library as shown below:
+
+                   <!DOCTYPE html>
+                  <html lang="en">
+                  <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>d3.js</title>
+                  </head>
+                  <body>
+                    <h1>Bar Chart using D3.js</h1>
+                    <!-- Creating blank svg tag -->
+                    <svg class="chart"></svg>
+
+                  </body>
+                  </html>
+                  <!--Pulling d3.js library  -->
+                  <script src="https://d3js.org/d3.v4.min.js"></script>
+                  <script src="index.js"></script>
+
+
+Using d3 library as follows:
+
+                   // Create data to be used
+                  let data_array = [80, 100, 56, 120, 180, 30, 40, 120, 160];
+
+                  let svg_width = 500, svg_height = 200, padding = 2;
+                  let bar_width = svg_width / data_array.length;
+
+                  //Selection of svg tag using d3 selector
+                  let svg = d3.select('svg')
+                  //assigning values to attributes
+                     .attr("width", svg_width) 
+                     .attr("height", svg_height);
+
+Inserting data and appending the rectangles in the blank svg tag:
+
+                  let chart = svg.selectAll("rect")
+                     .data(data_array) //inserting values from data_array
+                     .enter()
+                     .append("rect") //appending rectangles
+                     .attr("y", function(data) {
+                          return svg_height - data
+                     })
+                     .attr("height", function(data) {
+                         return data;
+                     })
+                     .attr("width", bar_width - padding)
+                     .attr("class", "bar")
+                     //To avoid overlapping of bars modify the x position of bars
+                     .attr("transform", function (data, x) {
+                         let translate = [bar_width * x, 0];
+                         return "translate("+ translate +")";
+                     });
+Insering labels at the top of each bar:
+
+                        let text = svg.selectAll("text")
+                           .data(data_array)
+                           .enter()
+                           .append("text")
+                           .text(function(data) {
+                               return data;
+                           })
+                           .attr("y", function(data, y) {
+                               return svg_height - data - 2;
+                           })
+                           .attr("x", function(data, i) {
+                               return bar_width * i;
+                           })
+                           .attr("fill", "Black")
+                           
+  Output: After applying styling to bar and chart classes we get the following output
+  ![Screenshot](gs://anu-first.appspot.com/Capture.JPG)
+  
+  Using such bar graphs and line charts would be an interesting idea to use in th projects.
+  
