@@ -188,7 +188,7 @@ Insering labels at the top of each bar:
                            .attr("fill", "Black")
                            
   Output: After applying styling to bar and chart classes we get the following output
-  ![Screenshot](gs://anu-first.appspot.com/Capture.JPG)
+  ![Screenshot](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/Capture.JPG?alt=media&token=a4ad16c6-8d3b-46a9-9fb6-6b9299793e15)
   
   Using such bar graphs and line charts would be an interesting idea to use in th projects.
   
