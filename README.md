@@ -73,17 +73,17 @@ It lets you build graphics that use common web standards
 
      Now if you would like to draw a rectangle inside this SVG, draw it using <rect> :
 
-                  Example: Square in SVG
-                  <svg width="500" height="500">
-                      <rect x="0" y="0" width="300" height="200"></rect>
-                  </svg>
+                      Example: Square in SVG
+                       <svg width="500" height="500">
+                       <rect x="0" y="0" width="300" height="200"></rect>
+                       </svg>
 
     Just like styling html elements, styling SVG elements is simple. Let's color the above rectangle in yellow. All you need to add is       an attribute "fill" and specify the color.
 
-                  Example: Colored Rectangle
-                  <svg width="500" height="500">
-                      <rect x="0" y="0" width="300" height="200" fill="yellow"></rect>
-                  </svg>
+                        Example: Colored Rectangle
+                        <svg width="500" height="500">
+                            <rect x="0" y="0" width="300" height="200" fill="yellow"></rect>
+                        </svg>
 
     - *JavaScript*
     JavaScript is a loosely-typed client side scripting language that executes in the user's browser. 
@@ -139,7 +139,7 @@ Create one html file and pull the d3.js library as shown below:
 
 Using d3 library as follows:
 
-                   // Create data to be used
+                  // Create data to be used
                   let data_array = [80, 100, 56, 120, 180, 30, 40, 120, 160];
 
                   let svg_width = 500, svg_height = 200, padding = 2;
@@ -148,13 +148,13 @@ Using d3 library as follows:
                   //Selection of svg tag using d3 selector
                   let svg = d3.select('svg')
                   //assigning values to attributes
-                     .attr("width", svg_width) 
-                     .attr("height", svg_height);
+                  .attr("width", svg_width) 
+                  .attr("height", svg_height);
 
 Inserting data and appending the rectangles in the blank svg tag:
 
                   let chart = svg.selectAll("rect")
-                     .data(data_array) //inserting values from data_array
+                  .data(data_array) //inserting values from data_array
                      .enter()
                      .append("rect") //appending rectangles
                      .attr("y", function(data) {
@@ -170,6 +170,7 @@ Inserting data and appending the rectangles in the blank svg tag:
                          let translate = [bar_width * x, 0];
                          return "translate("+ translate +")";
                      });
+                     
 Inserting labels at the top of each bar:
 
                         let text = svg.selectAll("text")
