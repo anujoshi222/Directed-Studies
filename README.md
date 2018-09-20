@@ -191,5 +191,5 @@ Inserting labels at the top of each bar:
   Output: After applying styling to bar and chart classes we get the following output
   ![Screenshot](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/Capture.JPG?alt=media&token=a4ad16c6-8d3b-46a9-9fb6-6b9299793e15)
   
-  Using such bar graphs and line charts would be an interesting idea to use in th projects.
+  Using such bar graphs and line charts would be an interesting idea to use in the projects.
   
