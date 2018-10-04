@@ -109,7 +109,12 @@ delay() and ease(). Animations from one state to another are fast and responsive
 
 ## Prototype Idea
 
-Let's draw a line graph using the d3.js library.
+* Let's draw a line graph using the d3.js library.
+* Using transitions and animations in the graph
+* Making the line chart interactive for user interaction
+
+Here is how I have started working on the project so far:
+
 Pull d3.js library from [here](https://d3js.org/#introduction)
 
                   <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -192,4 +197,33 @@ Inserting labels at the top of each bar:
   ![Screenshot](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/Capture.JPG?alt=media&token=a4ad16c6-8d3b-46a9-9fb6-6b9299793e15)
   
   Using such bar graphs and line charts would be an interesting idea to use in the projects.
+  
+  
+  ## User Stories
+  
+  1. As a Mother, I want to know what are the disease outbreaks happening around me, so that I can take care of myself and my family.
+  
+  2. As a travel enthusiast, I want to see how many people are being impacted from the disease outbreaks in particular areas, so that I can take immunization before travelling to that country.
+ 
+  3. As a Doctor, I want to view the historical diseases data for past 1 month in the particular area, so that I can estimate vaccines/medical needs in advance.
+  
+  
+  ## Progress Report
+  
+  * **Executive Summary:** As per the final project our team is building web app that enables the users to check the prevalent diseases and allergies in any of the countries on the globe. Following that, I am working on a interactive line chart using d3.js library that will show the diseases and the number of people getting infected from those diseases in a span of 1 month. My aim for making this prototype is to visualize the data in easy readable and interactive way. Also, Managing the wealth of available healthcare data allows health systems to create holistic views of patients, personalize treatments, improve communication, and enhance health outcomes. Via my prototype I am targeting all the travel enthusiast and the healthcare personnels who need to refer to the health data one or the other time. This app is apt for everybody who anytime wants to see the impact of diseases around them or in different countries.
+  The major thing about my prototype is the data will not be static user will be able to interact with the data in the line chart. Visualization of any sort of data is critical in terms of validation. For this project I am using dummy data to make my prototype work. In the future, I can make use of charts.js, topo.js and react to enhance the functionlaities of the prototype.
+  
+  
+  Source: [https://www.evariant.com/faq/why-is-healthcare-data-management-important] (https://www.evariant.com/faq/why-is-healthcare-data-management-important)
+  
+  * **Retrospective:** For this week, I worked on using transitions and projections in the line chart from a number of websites:
+  like [D3.js Official website](https://d3js.org/) and [Lynda video Tutorials](https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html). I was able to use the projections and transitions for the line chart, But I faced difficulty using the datasets of different kinds. I tried pulling data from array and csv files first. Then, I started working on the json object, because I did not know how to access the json objects I was not able to work with it. I referred to online tutorial on accessing json object in Javascript [Video Tutorial](https://www.mkyong.com/javascript/how-to-access-json-object-in-javascript/). For the next time, I will focus on revising the prerequisites for learning the new technology. In this case, learning d3 requires good knowledge of Javascript,CSS, HTML and SVG elements. Revising these four before going for d3.js could be better idea as going back and forth for reference in between the project is frustrating.
+  
+  * **Plan for next week**: 
+            * I will be working on the dataset of my prototype. I am using dummy data from [Mockaroo.com](https://www.mockaroo.com/). 
+            *  I will be working on user-data interaction. How user is going to interact with the data available.
+            
+  * **Product Backlog**
+  
+  
   
