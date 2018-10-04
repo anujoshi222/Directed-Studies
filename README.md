@@ -220,8 +220,8 @@ Inserting labels at the top of each bar:
   like [D3.js Official website](https://d3js.org/) and [Lynda video Tutorials](https://www.lynda.com/D3js-tutorials/Data-Visualization-D3js/162449-2.html). I was able to use the projections and transitions for the line chart, But I faced difficulty using the datasets of different kinds. I tried pulling data from array and csv files first. Then, I started working on the json object, because I did not know how to access the json objects I was not able to work with it. I referred to online tutorial on accessing json object in Javascript [Video Tutorial](https://www.mkyong.com/javascript/how-to-access-json-object-in-javascript/). For the next time, I will focus on revising the prerequisites for learning the new technology. In this case, learning d3 requires good knowledge of Javascript,CSS, HTML and SVG elements. Revising these four before going for d3.js could be better idea as going back and forth for reference in between the project is frustrating.
   
   * **Plan for next week**: 
-            * I will be working on the dataset of my prototype. I am using dummy data from [Mockaroo.com](https://www.mockaroo.com/). 
-            *  I will be working on user-data interaction. How user is going to interact with the data available.
+            *I will be working on the dataset of my prototype. I am using dummy data from [Mockaroo.com](https://www.mockaroo.com/). 
+            *I will be working on user-data interaction. How user is going to interact with the data available.
             
   * **Product Backlog**
   
