@@ -240,28 +240,28 @@ Please follow the link to see the prototype demo: [Prototype](http://mylinux.lan
 ## Retrospective Report
 ### What went well!
 
-• Completed 75% of the prototype
-• Collaboration with Project 2
-• On track in terms of learnng goals
-• Adaptability to work in real world
-• Able to create charts with animation and transitions
+* Completed 75% of the prototype
+* Collaboration with Project 2
+* On track in terms of learnng goals
+* Adaptability to work in real world
+* Able to create charts with animation and transitions
 
 ### What did not go well
 
-• Initially fixing issues bu yourself was difficult. I was following a tutorial where the version used for the d3 library was older one. The syntax for few functions was changed, it was really difficult to figure out what was wrong. So I refrerred to Stack overflow forum to fix the issue finally.
-• Too many channels for learning was creating confusion.
-• I did not freeze the features I need for the prototype
+* Initially fixing issues bu yourself was difficult. I was following a tutorial where the version used for the d3 library was older one. The syntax for few functions was changed, it was really difficult to figure out what was wrong. So I refrerred to Stack overflow forum to fix the issue finally.
+* Too many channels for learning was creating confusion.
+* I did not freeze the features I need for the prototype
 
 ### Roadblocks
 
-• Work stress from other courses slowed down my learning process
-• I had few exams this week too, So I had less time to focus on my prototype.
+* Work stress from other courses slowed down my learning process
+* I had few exams this week too, So I had less time to focus on my prototype.
 
 ### What will be done differently next time
 
-• I will filter the resouces before starting a feature from scratch.
-• I am bit week in corporating visual aids, I will sharpen my CSS skills too.
-• I will prepare a plan and wireframes for the features to be executed.
+* I will filter the resouces before starting a feature from scratch.
+* I am bit week in corporating visual aids, I will sharpen my CSS skills too.
+* I will prepare a plan and wireframes for the features to be executed.
 
 ## Project Plan
 ![Project_Plan](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/Untitled.jpg?alt=media&token=c800046c-eefd-45a0-98f3-dce496312169)
