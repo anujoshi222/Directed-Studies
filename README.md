@@ -231,8 +231,113 @@ Inserting labels at the top of each bar:
   * **Product Backlog**
   
   ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/backklog.JPG?alt=media&token=daaff4fe-4223-4807-ad8d-440e8efb0677)
-  
-  ##Prototype Demo
+  ## Prototype implementation
+   ### Data creation for the line chart
+        function generateData() {
+          let Malaria = [],
+              Measles = [],
+              Pollen = [],
+              diarrhoea = [],
+              n1 = Math.round(Math.random()),
+              n2 = Math.round(Math.random()),
+              n3 = Math.round(Math.random()),
+              n4 = Math.round(Math.random());
+
+                for (let i = 0; i < 100; i=i+5) {
+                  Malaria.push([ i*100, Math.random()+100]);
+                  Measles.push([ i*100, n2 +Math.random()+100]);
+                  Pollen.push([ i*100, n3 +Math.random()+100]);
+                  diarrhoea.push([ i*100, n4 +Math.random()+100]);
+                }
+
+                return [
+                  {
+                    data: Malaria,
+                    label: "Malaria"
+                  },
+                  {
+                    data: Measles,
+                    label: "Measles"
+                  },
+                  {
+                    data: Pollen,
+                    label: "Pollen Allergy"
+                  },
+                  {
+                    data: diarrhoea,
+                    label: "Skin rashes"
+                  }
+                ];
+              
+   ### Create Chart
+   
+         function graph(selection) {
+          selection.each(function(data) {
+
+            let container = d3.select(this).selectAll('g.point').data([data]);
+            let gEnter = container.enter().append('g').attr('class', 'point').append('g');
+
+
+            let g = container.select('g')
+                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+
+            let range= g.selectAll('.range')
+                .data(function(d) { return d });
+            let rangeEnter = range.enter().append('g').attr('class', 'range')
+                .on('click', function(d, i) {
+                  dispatch.pointClick(d, i);
+                })
+                .on('mouseover', function(d, i) {
+                  dispatch.pointMouseover(d, i);
+                })
+                .on('mouseout', function(d, i) {
+                  dispatch.pointMouseout(d, i);
+                });
+            rangeEnter.append('circle')
+                .style('fill', function(d, i){ return d.color || color[i % 10] })
+                .style('stroke', function(d, i){ return d.color || color[i % 10] })
+                .attr('r', 5);
+            rangeEnter.append('text')
+                .text(function(d) { return d.label })
+                .attr('text-anchor', 'start')
+                .attr('dy', '.32em')
+                .attr('dx', '8');
+            range.classed('disabled', function(d) { return d.disabled });
+            range.exit().remove();
+
+
+            let ypos = 1,
+                newxpos = 5,
+                maxwidth = 0,
+                xpos;
+            range
+                .attr('transform', function(d, i) {
+                   let length = d3.select(this).select('text').node().getComputedTextLength() + 28;
+                   xpos = newxpos;
+
+
+                   if (width < margin.left + margin.right + xpos + length) {
+                     newxpos = xpos = 5;
+                     ypos += 20;
+                   }
+
+                   newxpos += length;
+                   if (newxpos > maxwidth) maxwidth = newxpos;
+
+                   return 'translate(' + xpos + ',' + ypos + ')';
+                });
+
+            //position point as far right as possible within the total width
+            g.attr('transform', 'translate(' + (width - margin.right - maxwidth) + ',' + margin.top + ')');
+
+            height = margin.top + margin.bottom + ypos + 15;
+          });
+
+          return graph;
+   
+   
+  ## Prototype Demo
   
 Please follow the link to see the prototype demo: [Prototype](http://mylinux.langara.bc.ca/~a33/Directed_Studies/index)
 
