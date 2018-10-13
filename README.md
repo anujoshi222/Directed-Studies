@@ -108,7 +108,7 @@ D3 works out the logic to interpolate between your values and find the intermitt
 delay() and ease(). Animations from one state to another are fast and responsive to user interactions.
 
 
-## Prototype Idea
+## 75% Prototype Idea
 
 * Let's draw a line graph using the d3.js library.
 * Using transitions and animations in the graph
