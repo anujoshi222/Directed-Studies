@@ -371,3 +371,11 @@ Please follow the link to see the prototype demo: [Prototype](http://mylinux.lan
 ## Project Plan
 ![Project_Plan](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/Untitled.jpg?alt=media&token=c800046c-eefd-45a0-98f3-dce496312169)
 
+## Project User Stories
+
+  1. As a single parent, I want to see the air quality and weather forecast around me, so that I can take care of my children and family.
+  
+  2. As a travel enthusiast, I want to see the disease outbreaks in particular areas, so that I can take immunization before travelling to that country.
+ 
+  3. As a health instructor, I want to see the seasonal allergies prevalent in that area, so that I can instruct people to work on their health.
+  4. As a doctor, I want to see the suggested vaccines for development of immunization against the diseases, so that I can suggest some more via the app.
