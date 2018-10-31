@@ -387,8 +387,8 @@ Please follow the link to see the prototype demo: [Prototype](http://mylinux.lan
  * **Executive Summary:** As per the final project our team is building web app that enables the users to check the prevalent diseases and allergies in any of the countries on the globe. Following that, I am working on a interactive line chart using d3.js library that will show the diseases and the number of people getting infected from those diseases in a span of 1 month. 
  I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
  
-  * **Retrospective:** So far in terms of the project, 
-            * **Technology Research:** Initially, It was challenging to decide which technology to go for. But
+  * **Retrospective:** So far in terms of the project:
+       * **Technology Research:** Initially, It was challenging to decide which technology to go for. But
 then after some research, I realized for data visualization there is a bunch of libraries that can be used like React, Vue or D3.js. I chose the d3.js library because it has very cool graphs, sunburst charts, and maps as output. I will use d3.js, HTML, CSS, JQuery, Javascript, PHP as my development tools. See the links below:
 [https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#2e94de3e6c30](https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#2e94de3e6c30)
 
