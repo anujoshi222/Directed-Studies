@@ -362,6 +362,7 @@ Please follow the link to see the prototype demo: [Prototype](http://mylinux.lan
 * Work stress from other courses slowed down my learning process
 * I had few exams this week too, So I had less time to focus on my prototype.
 
+
 ### What will be done differently next time
 
 * I will filter the resouces before starting a feature from scratch.
@@ -379,3 +380,30 @@ Please follow the link to see the prototype demo: [Prototype](http://mylinux.lan
  
   3. As a health instructor, I want to see the seasonal allergies prevalent in that area, so that I can instruct people to work on their health.
   4. As a doctor, I want to see the suggested vaccines for development of immunization against the diseases, so that I can suggest some more via the app.
+
+
+## 20% Progress Report
+
+ * **Executive Summary:** As per the final project our team is building web app that enables the users to check the prevalent diseases and allergies in any of the countries on the globe. Following that, I am working on a interactive line chart using d3.js library that will show the diseases and the number of people getting infected from those diseases in a span of 1 month. 
+ I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
+ 
+  * **Retrospective:** So far in terms of the project, 
+            * **Technology Research:** Initially, It was challenging to decide which technology to go for. But
+then after some research, I realized for data visualization there is a bunch of libraries that can be used like React, Vue or D3.js. I chose the d3.js library because it has very cool graphs, sunburst charts, and maps as output. I will use d3.js, HTML, CSS, JQuery, Javascript, PHP as my development tools. See the links below:
+[https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#2e94de3e6c30](https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#2e94de3e6c30)
+
+[https://bigdata-madesimple.com/review-of-20-best-big-data-visualization-tools-2/](https://bigdata-madesimple.com/review-of-20-best-big-data-visualization-tools-2/)
+            * **Plan with Technology:** Map - I will use d3.js/React to create the map.Data- I will use WHO API's to fetch data for the diseases and allergies.I am responsible for implementing this API.
+            * **API Research & Prototyping:**: I implemented the insect API for fetching the health-threatening insects in a specific area. Please see the link here:
+            [http://mylinux.langara.bc.ca/~a33/inaturall/1.html](http://mylinux.langara.bc.ca/~a33/inaturall/1.html)
+            I also used the d3.js library to implement the line chart as part of the directed studies course which is also part of project 2: [http://mylinux.langara.bc.ca/~a33/Directed_Studies/index](http://mylinux.langara.bc.ca/~a33/Directed_Studies/index)
+  
+  
+  * **Plan for next week**: 
+      * I will be working on implementing "Air Quality" weather API from the accuweather site and display the result in the front end.
+                 
+  * **Product Backlog**
+  
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/backklog.JPG?alt=media&token=daaff4fe-4223-4807-ad8d-440e8efb0677)
+ 
+ 
