@@ -393,8 +393,8 @@ then after some research, I realized for data visualization there is a bunch of 
 [https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#2e94de3e6c30](https://www.forbes.com/sites/bernardmarr/2017/07/20/the-7-best-data-visualization-tools-in-2017/#2e94de3e6c30)
 
 [https://bigdata-madesimple.com/review-of-20-best-big-data-visualization-tools-2/](https://bigdata-madesimple.com/review-of-20-best-big-data-visualization-tools-2/)
-            * **Plan with Technology:** Map - I will use d3.js/React to create the map.Data- I will use WHO API's to fetch data for the diseases and allergies.I am responsible for implementing this API.
-            * **API Research & Prototyping:**: I implemented the insect API for fetching the health-threatening insects in a specific area. Please see the link here:
+      * **Plan with Technology:** Map - I will use d3.js/React to create the map.Data- I will use WHO API's to fetch data for the diseases and allergies.I am responsible for implementing this API.
+      * **API Research & Prototyping:**: I implemented the insect API for fetching the health-threatening insects in a specific area. Please see the link here:
             [http://mylinux.langara.bc.ca/~a33/inaturall/1.html](http://mylinux.langara.bc.ca/~a33/inaturall/1.html)
             I also used the d3.js library to implement the line chart as part of the directed studies course which is also part of project 2: [http://mylinux.langara.bc.ca/~a33/Directed_Studies/index](http://mylinux.langara.bc.ca/~a33/Directed_Studies/index)
   
