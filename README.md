@@ -406,7 +406,7 @@ then after some research, I realized for data visualization there is a bunch of 
                  
   * **Product Backlog**
   
-  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/backklog.JPG?alt=media&token=daaff4fe-4223-4807-ad8d-440e8efb0677)
+  ![Backlog]https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/20%25.jpg?alt=media&token=33c35119-eda3-4373-953f-59f09bba69d3)
  
  
  
@@ -427,7 +427,7 @@ then after some research, I realized for data visualization there is a bunch of 
                  
   * **Product Backlog**
   
-  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/backklog.JPG?alt=media&token=daaff4fe-4223-4807-ad8d-440e8efb0677)
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/40%25.jpg?alt=media&token=e335bf63-7f1c-4766-b825-780e55ebb73d)
  
  
   ## 60% Progress Report
@@ -447,5 +447,5 @@ then after some research, I realized for data visualization there is a bunch of 
                  
   * **Product Backlog**
   
-  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/backklog.JPG?alt=media&token=daaff4fe-4223-4807-ad8d-440e8efb0677)
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/60%25.jpg?alt=media&token=38c215c9-f09d-4ec4-9402-a97929d2d688)
  
