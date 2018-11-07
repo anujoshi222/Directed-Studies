@@ -416,14 +416,11 @@ then after some research, I realized for data visualization there is a bunch of 
  I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
  
   * **Retrospective:** So far in terms of the project:
-       * **Map Google API implemented:** Our guest page have a map depicting the disease data on it. I implemented Google Map Api using html and Jquery. The overall requirement of our project is to get the map as a react component.
-       Please see the demo file here: [http://mylinux.langara.bc.ca/~a33/googlemap](http://mylinux.langara.bc.ca/~a33/googlemap)
+      
       * **Openweather API implementation using d3.js :** We have another feature where the user has to enter the location and based on that the data of weather, pressure, wind speed etc is fetched from the API. I implemeted the openweather api to achieve that.
       Please see the demo here: [file:///C:/Users/User/Desktop/map/prototype_map.html](file:///C:/Users/User/Desktop/map/prototype_map.html)
       
-      * **Converted D3.js to a react app**: We are planning to make our app based on the react.js. I had to convert both the map and weather scripts to react components. I implemented both the API implementations to the react components.
-  
-  
+        
   * **Plan for next week**: 
       * I will be working on implementing the Google map API with data visualization in Jquery .
       * I also need to convert the d3.js script to react component because our app is based on react solely.
@@ -443,7 +440,7 @@ then after some research, I realized for data visualization there is a bunch of 
        Please see the demo file here: [http://mylinux.langara.bc.ca/~a33/googlemap](http://mylinux.langara.bc.ca/~a33/googlemap)
             
       * **Converted D3.js to a react app**: We are planning to make our app based on the react.js. I had to convert both the map and weather scripts to react components. I implemented both the API implementations to the react components.
-  
+  ![bbb](https://cdn.filestackcontent.com/61xyKf5Qpiq97IUvLvGf)
   
   * **Plan for next week**: 
       * I will be working on integrating both the components and customize the weather app search bar for the map component as well.
