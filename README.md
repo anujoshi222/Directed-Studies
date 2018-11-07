@@ -406,7 +406,7 @@ then after some research, I realized for data visualization there is a bunch of 
                  
   * **Product Backlog**
   
-  ![Backlog]https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/20%25.jpg?alt=media&token=33c35119-eda3-4373-953f-59f09bba69d3)
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/20%25.jpg?alt=media&token=33c35119-eda3-4373-953f-59f09bba69d3)
  
  
  
