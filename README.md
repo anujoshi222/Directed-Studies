@@ -449,3 +449,20 @@ then after some research, I realized for data visualization there is a bunch of 
   
   ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/60%25.jpg?alt=media&token=38c215c9-f09d-4ec4-9402-a97929d2d688)
  
+  ## 80% Progress Report
+
+ * **Executive Summary:** As per the final project our team is building web app that enables the users to check the prevalent diseases and allergies in any of the countries on the globe. Following that, I am working on a interactive line chart using d3.js library that will show the diseases and the number of people getting infected from those diseases in a span of 1 month. 
+ I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
+ 
+  * **Retrospective:** So far in terms of the project:
+       * **Imntegration of components:** I integrated the google map API component and the Accuweather API.
+            
+      * **Customized the Google API map:** According to the mockups and wireframes given by the designer I modified the Google map display For ex. Hiding the default controls, Changing the color for the map label and content area.
+  
+  * **Plan for next week**: 
+      * I will be assisting my team in converting a php component to react using restful API for json object modification.
+                 
+  * **Product Backlog**
+  
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/80%25.jpg?alt=media&token=23ae026d-3cf6-43a4-ab13-65c6ddaa4016)
+ 
