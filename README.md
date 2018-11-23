@@ -466,3 +466,35 @@ then after some research, I realized for data visualization there is a bunch of 
   
   ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/80%25.jpg?alt=media&token=23ae026d-3cf6-43a4-ab13-65c6ddaa4016)
  
+ ## 90% Progress Report
+
+ * **Executive Summary:** I have completed the styling and implementation of Google map component and open-weather component. The integration of both these react components was done this week. After hosting the app on heroku, the open-weather was not working. I worked on fixing this bug. In order to solve the issue, I removed the function that I was using for fetching weather information. Instead, I directly used the link to access json data from the openweather API. I also worked on enhancing the loading speed of the app on heroku.
+ 
+  * **Retrospective:** I have completed the integration of Google app API and Openweather API as a single react app. The following tasks were performed this week.
+  
+       * **Bug fixing of Openweather API on heroku:** The openweather API was working fine locally butonce I host the app onheroku, it was giving 400 error. After analysing the code I realised it has some port limitation when we hit the API using the function. But once I directly fetched the data from the link. It worked fine.
+![weather](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/air.JPG?alt=media&token=95ffba76-3639-4843-abce-d3254f5f4c1b)
+      * **Enhanced loading speed of heroku app:** Simplified the map configuration and cleaned the code for easy readability.
+     
+  
+  * **Plan for next week**: 
+      * I will be working on some of the css stuff for the openweather component.
+                 
+  * **Product Backlog**
+  
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/90%25.jpg?alt=media&token=ab3a652e-a611-4ee3-8544-be1a1671bdd9)
+  
+  ## 95% Progress Report
+
+ * **Executive Summary:** As per the final project our team is building web app that enables the users to check the prevalent diseases and allergies in any of the countries on the globe. Following that, I am working on a interactive line chart using d3.js library that will show the diseases and the number of people getting infected from those diseases in a span of 1 month. 
+ I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
+ 
+  * **Retrospective:** 
+  
+  
+  * **Plan for next week**: 
+      * I will still be working on enhancing the visual aida and testing of integrated components.
+                 
+  * **Product Backlog**
+  
+  ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/95%25.jpg?alt=media&token=07d9ab4f-1b76-4790-b6e3-5bba58e12a1d)
