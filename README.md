@@ -455,7 +455,7 @@ then after some research, I realized for data visualization there is a bunch of 
  I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
  
   * **Retrospective:** So far in terms of the project:
-       * **Imntegration of components:** I integrated the google map API component and the Accuweather API.
+       * **Integration of components:** I integrated the google map API component and the Accuweather API.
             
       * **Customized the Google API map:** According to the mockups and wireframes given by the designer I modified the Google map display For ex. Hiding the default controls, Changing the color for the map label and content area.
   
@@ -486,11 +486,10 @@ then after some research, I realized for data visualization there is a bunch of 
   
   ## 95% Progress Report
 
- * **Executive Summary:** As per the final project our team is building web app that enables the users to check the prevalent diseases and allergies in any of the countries on the globe. Following that, I am working on a interactive line chart using d3.js library that will show the diseases and the number of people getting infected from those diseases in a span of 1 month. 
- I am working on the visualisation and front-end development. I am using tablaeu, d3.js, charts.js for development of the front-end charts and maps.
+ * **Executive Summary:** As We are almost done with our project, this week I focussed on enhancing the visual aids and improving the user experience through the application. For that purpose, I used the Reactstrap which somewhat same as Bootstrap to enhance the feel and look of the app. Also, we focussed how we are going to pitch our app. We as a team finalised our pitch deck and the script.
  
   * **Retrospective:** 
-  
+      **Optimization of the components:** As a whole, I worked on enhancing the visual aids of the components. 
   
   * **Plan for next week**: 
       * I will still be working on enhancing the visual aida and testing of integrated components.
