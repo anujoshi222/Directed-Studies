@@ -488,8 +488,7 @@ then after some research, I realized for data visualization there is a bunch of 
 
  * **Executive Summary:** As We are almost done with our project, this week I focussed on enhancing the visual aids and improving the user experience through the application. For that purpose, I used the Reactstrap which somewhat same as Bootstrap to enhance the feel and look of the app. Also, we focussed how we are going to pitch our app. We as a team finalised our pitch deck and the script.
  
-  * **Retrospective:** 
-      **Optimization of the components:** As a whole, I worked on enhancing the visual aids of the components. 
+ **Optimization of the components:** As a whole, I worked on enhancing the visual aids of the components. 
   
   * **Plan for next week**: 
       * I will still be working on enhancing the visual aida and testing of integrated components.
@@ -497,3 +496,28 @@ then after some research, I realized for data visualization there is a bunch of 
   * **Product Backlog**
   
   ![Backlog](https://firebasestorage.googleapis.com/v0/b/anu-first.appspot.com/o/95%25.jpg?alt=media&token=07d9ab4f-1b76-4790-b6e3-5bba58e12a1d)
+  
+## Retrospective Report
+### What went well!
+
+* Successfully implemented Google Map API and OpenWeather API
+* Used d3.js in the openWeather API component.
+* Was able to work with React.js for converting both the components to React
+* Hosting of app pn Heroku
+
+### What did not go well
+
+* I was already learning d3.js, so the learning curve for React was bit low initially.
+* The initial components were implemented in Javascript and Jquery, switch to React was bit difficult.
+
+### Roadblocks
+
+* The free version of Heroku offers slow loading of the components.
+
+### Interesting Lessons
+When I was working with React, I found out it works almost the same way as Javascript and yet what makes it more powerful is the availability of the packages inside it like in my case Google Maps React, OpenWeather API and ReactStrap.
+
+### What will be done differently next time
+
+* As a team, we will try to figure out what technologies we need to work on, in advace
+* Project plan will be made keeping in mind the learning curves for the technology we need.
