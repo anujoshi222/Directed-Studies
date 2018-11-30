@@ -488,10 +488,10 @@ then after some research, I realized for data visualization there is a bunch of 
 
  * **Executive Summary:** As We are almost done with our project, this week I focussed on enhancing the visual aids and improving the user experience through the application. For that purpose, I used the Reactstrap which somewhat same as Bootstrap to enhance the feel and look of the app. Also, we focussed how we are going to pitch our app. We as a team finalised our pitch deck and the script.
  
- **Optimization of the components:** As a whole, I worked on enhancing the visual aids of the components. 
+ **Optimization of the components:** For this week, I will be working on preparation of the final presentation. Also, the testing of the sign-in and sign-up component is still in progress. 
   
   * **Plan for next week**: 
-      * I will still be working on enhancing the visual aida and testing of integrated components.
+      * I will still be working onn testing of integrated components,sign-in & signup components.
                  
   * **Product Backlog**
   
@@ -521,3 +521,211 @@ When I was working with React, I found out it works almost the same way as Javas
 
 * As a team, we will try to figure out what technologies we need to work on, in advace
 * Project plan will be made keeping in mind the learning curves for the technology we need.
+### Code Checkin
+
+#### Google Map API
+             state = {
+                currentLocation: {
+                  latitude: this.props.latitude,
+                  longitude: this.props.longitude
+                }
+              };
+             render() {
+                return <div id="map" />;
+              }
+             componentDidMount() {
+                this.renderMap();
+              }
+
+Initialising the map after setting the states:
+
+            //Initialising Map
+            renderMap = () => {
+                loadScript(
+                  "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAw1zriz4pPpa2YVpyr9tAhomDohpi2FBg
+                   &callback=initMap"
+                );
+                window.initMap = this.initMap;
+              };
+              initMap = () => {
+                navigator.geolocation.getCurrentPosition(
+                  position => {
+                    const { latitude, longitude } = position.coords;
+                    this.setState(
+                      { currentLocation: { latitude, longitude }, loading: false },
+                      () => {
+                        let userLocation = {
+                          lat: this.state.currentLocation.latitude,
+                          lng: this.state.currentLocation.longitude
+                        };
+                        let map = new window.google.maps.Map(
+                          document.getElementById("map"),
+            //Map loading defaults
+                            center: userLocation,
+                            zoom: 3,
+                            mapTypeId: "roadmap",
+                            disableDefaultUI: true   
+                            
+                            
+Change the marker location onloading a different location:
+
+            componentDidUpdate(prevProps) {
+                if (
+                  this.props.latitude !== prevProps.latitude ||
+                  this.props.longitude !== prevProps.longitude
+                ) {
+                  navigator.geolocation.getCurrentPosition(
+                    () => {
+                      this.setState(
+                        {
+                          currentLocation: {
+                            latitude: this.props.latitude,
+                            longitude: this.props.longitude
+                          },
+                          loading: false
+                        }
+                        
+                        
+                        
+#### OpenWeather API
+
+Using d3 library for react:
+
+            import { color } from "d3-color";
+            import { interpolateRgb } from "d3-interpolate";
+            import LiquidFillGauge from "react-liquid-gauge";
+
+             render() {
+                const radius = 100;
+                const interpolate = interpolateRgb(
+                  this.props.startColor,
+                  this.props.endColor
+                );
+                const fillColor = interpolate(this.props.value / 100);
+                
+                
+Using LiquidGAuge library to draw the gauges:
+
+            return (
+                  <LiquidFillGauge
+                    width={radius * 1.2}
+                    height={radius * 1.2}
+                    value={Math.round(this.props.percentage)}
+                    percent={this.props.unit}
+                    textSize={1}
+                    textOffsetX={0}
+                    textOffsetY={0}
+            );
+                    riseAnimation
+                    waveAnimation
+                    waveFrequency={2}
+                    waveAmplitude={3}
+            />
+            <tspan>
+                          <tspan className="value" style={valueStyle}>
+                            {Math.round(this.props.value)}
+                          </tspan>
+                          <tspan style={percentStyle}>{props.percent}</tspan>
+                        </tspan>
+                        
+Implement OpenWeather API:
+
+             getWeather = searchText => {
+                axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=
+            ${"6c0a61ffaadf7eb42bd12639fe51b8c0"}`)
+                  .then(res => {
+                    const response = res.data;
+                    const { main: { temp, pressure, humidity }, weather, wind } = response;
+                    const { description } = weather[0];
+
+                    this.setState({
+                      loaded: true,
+                      temperature: temp - 273.15,
+                      pressure,
+                      humidity,
+                      wind: wind.speed,
+                      description
+                    });
+                  },
+                  error => {
+                    console.log(error);
+                  })};
+                  
+API and liquid gauge implementation
+
+            // API integration
+            import axios from "axios";
+            import { Col } from "reactstrap";
+
+             render() {
+                return (
+                  this.state.loaded && (
+                    <React.Fragment>
+                      <Col sm="12" lg="2" className="weatherContainer">
+                        <h4>Temperature</h4>
+                        <LiquidGauge
+                          id={"temperature"}
+                          percentage={(this.state.temperature / 40) * 100}
+                          value={this.state.temperature}
+                          unit={`\u00b0C`}
+                          startColor={"#0079FF"}
+                          endColor={"#0079FF"}
+                        />
+                      </Col>
+            );
+            
+#### Breezometer API
+
+creating pieChart using recharts library:
+
+            import { ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
+            <PieChart>
+                    <Pie
+                      cx="50%"
+                      cy="80%"
+                      startAngle={0}
+                      endAngle={180}
+                      innerRadius={100}
+                      outerRadius={140}
+                      fill="#8884d8"
+                      paddingAngle={0}>       
+                  </PieChart>
+                  
+Creating states for fetching air quality info, health instructions and risk
+
+            this.state = {
+                  aqi: 0,
+                  info: { info: {} },
+                  risk: ""
+                };
+
+            render(){
+            return( <React.Fragment>
+                          <AirQualityPieChart aqi={this.state.aqi} max={100} rev={true} />
+                          <div className="aqinfo">
+                            <strong>{this.state.aqi}</strong>
+                            <span>{this.state.risk}</span>
+                          </div>
+                        </React.Fragment>
+            );
+            
+Implementing breezometer API:
+
+             getAirQuality = country => {
+
+                    return axios.get(
+                      `https://api.breezometer.com/air-quality/v2/current-conditions?lat=${
+                        this.state.lat //values from search bar
+                      }&lon=${
+                        this.state.lon //values from search bar
+                      }&key=8d0bc1d42b204dd3af3664c6d2320428&features=breezometer_aqi,health_recommendations`
+                    );
+                  })
+                  .then(response => {
+                    // aqi: response.data.current.pollution.aqi;
+                    if (response.data !== null) {
+                      this.setState({
+                        aqi: response.data.data.indexes.baqi.aqi,
+                        info: { info: response.data.data.health_recommendations },
+
+                  
