@@ -521,7 +521,7 @@ When I was working with React, I found out it works almost the same way as Javas
 
 * As a team, we will try to figure out what technologies we need to work on, in advace
 * Project plan will be made keeping in mind the learning curves for the technology we need.
-### Code Checkin
+### Final Code Checkin
 
 #### Google Map API
              state = {
@@ -729,3 +729,36 @@ Implementing breezometer API:
                         info: { info: response.data.data.health_recommendations },
 
                   
+### Final Retrospective
+
+### What went well!
+
+* I was able to learn fundamentals of d3.js library.
+* I was also able to learn React.js and used d3.js, liquid gauge, recharts pkges .
+* Successfully hosted app on heroku
+* I was able to learn from the lynda.com tutorials.
+* Feedback from the classmates working on the same technology was quite helpful.
+* The presentations during the project made me aware how the actual client will expect us to work in real time.
+
+### What did not go well
+
+* Learning d3.js and React.js all by myself using online resources was somewhat a big challenge.
+* The overall project plan did not go as decided initially.
+* The initial components were implemented in Javascript and Jquery, switch to React was bit difficult.
+
+
+### Roadblocks
+
+* The CORS error while hosting the app on heroku.
+* Initially it was difficult to find an API that could show the air quality info in a better way.
+
+### Interesting Lessons
+* When I was working with React, I found out it works almost the same way as Javascript and yet what makes it more powerful is the availability of the packages inside it like in my case Google Maps React, OpenWeather API and ReactStrap.
+* Learning lessons while working with Google Map API, Breezometer and Openweather API was really interesting.
+* Regular stand-up meetings and progress reports made me a more organised professional
+
+### What will be done differently next time
+
+* Project process should agile and the project plan should be modified as the needs, scope and time changes.
+* Project plan will be made keeping in mind the learning curves for the technology we need.
+* I will be more specific about the needs, todo's etc.
